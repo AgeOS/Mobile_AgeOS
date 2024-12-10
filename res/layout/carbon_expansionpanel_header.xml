@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.ImageView android:layout_gravity="end|center" android:id="@id/carbon_panelExpandedIndicator" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_marginRight="@dimen/carbon_windowPadding" android:layout_marginEnd="@dimen/carbon_windowPadding" app:carbon_src="@drawable/carbon_arrow_down" app:carbon_tint="?carbon_iconColor" />
+</merge>

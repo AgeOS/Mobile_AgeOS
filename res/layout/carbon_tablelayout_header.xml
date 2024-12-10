@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.TextView android:textAppearance="@style/carbon_TextAppearance.Body2" android:textColor="@color/carbon_defaultTextSecondaryColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/carbon_tableHeaderText" android:paddingLeft="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" />
+</LinearLayout>

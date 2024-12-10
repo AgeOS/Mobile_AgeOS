@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stario.launcher.ui.AdaptiveIconView android:id="@id/icon" android:layout_width="180.0dip" android:layout_height="180.0dip" android:transitionName="package_logo" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:monochromeColor="?colorAccent" />
+    <TextView android:textSize="30.0sp" android:textColor="?colorOnPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:lines="2" android:alpha="0.5" android:fontFamily="@font/dm_sans_black" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" android:letterSpacing="-0.04" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

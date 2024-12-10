@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.LinearLayout android:orientation="vertical" android:id="@id/carbon_inputLayoutContainer" android:tag="inputLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?carbon_inputLayoutContainerStyle">
+        <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceCaption" android:id="@id/carbon_label" android:tag="inputLayout" android:paddingLeft="?carbon_inputLayoutBoxPadding" android:paddingRight="?carbon_inputLayoutBoxPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" app:carbon_inAnimation="fly" app:carbon_outAnimation="fly" />
+    </carbon.widget.LinearLayout>
+    <carbon.widget.FrameLayout android:tag="inputLayout" android:paddingLeft="@dimen/carbon_paddingHalf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/carbon_inputLayoutContainer" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:paddingStart="@dimen/carbon_paddingHalf" android:layout_alignParentEnd="true">
+        <carbon.widget.ImageView android:layout_gravity="bottom" android:id="@id/carbon_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" app:carbon_src="@drawable/carbon_clear" style="?carbon_inputLayoutButtonStyle" />
+        <carbon.widget.ImageView android:layout_gravity="bottom" android:id="@id/carbon_showPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" app:carbon_src="@drawable/carbon_visibility" style="?carbon_inputLayoutButtonStyle" />
+        <carbon.widget.ImageView android:layout_gravity="bottom" android:id="@id/carbon_voiceInput" android:layout_width="wrap_content" android:layout_height="wrap_content" app:carbon_src="@drawable/carbon_voice" style="?carbon_inputLayoutButtonStyle" />
+    </carbon.widget.FrameLayout>
+    <carbon.widget.LinearLayout android:tag="inputLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?carbon_inputLayoutBoxPadding" android:layout_marginRight="?carbon_inputLayoutBoxPadding" android:layout_below="@id/carbon_inputLayoutContainer">
+        <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceCaption" android:id="@id/carbon_error" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:carbon_inAnimation="fade" app:carbon_outAnimation="fade" />
+        <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceCaption" android:id="@id/carbon_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </carbon.widget.LinearLayout>
+</merge>

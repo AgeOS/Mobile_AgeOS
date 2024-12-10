@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.FrameLayout android:layout_width="fill_parent" android:layout_height="160.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/carbon_windowPadding" android:layout_marginTop="@dimen/carbon_margin" android:layout_marginRight="@dimen/carbon_margin" android:layout_marginBottom="@dimen/carbon_margin" android:layout_marginStart="@dimen/carbon_windowPadding" android:layout_marginEnd="@dimen/carbon_margin">
+        <carbon.widget.ImageView android:id="@id/carbon_avatar" style="@style/carbon_ImageView.Avatar" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/carbon_margin" android:layout_marginStart="@dimen/carbon_margin">
+            <carbon.widget.Label android:textAppearance="@style/carbon_TextAppearance.Subhead" android:id="@id/carbon_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <carbon.widget.Label android:textAppearance="@style/carbon_TextAppearance.Body1" android:id="@id/carbon_subtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</carbon.widget.FrameLayout>

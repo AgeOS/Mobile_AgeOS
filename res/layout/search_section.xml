@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" android:forceDarkAllowed="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.stario.launcher.ui.AdaptiveIconView android:id="@id/icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:monochromeColor="?colorAccent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="?colorOnPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/dm_sans_regular" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

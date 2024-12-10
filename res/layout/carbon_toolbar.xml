@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/carbon_toolbarHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.ImageView android:id="@id/carbon_toolbarIcon" android:layout_width="@dimen/carbon_toolbarItemSize" android:layout_height="@dimen/carbon_toolbarHeight" android:layout_marginLeft="@dimen/carbon_toolbarItemMargin" android:layout_marginRight="@dimen/carbon_toolbarUpTitleMargin" android:layout_marginStart="@dimen/carbon_toolbarItemMargin" android:layout_marginEnd="@dimen/carbon_toolbarUpTitleMargin" app:carbon_inAnimation="none" app:carbon_outAnimation="none" style="@style/carbon_ImageView.IconButton" />
+    <carbon.widget.FrameLayout android:id="@id/carbon_toolbarContent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/carbon_windowPadding" android:minHeight="@dimen/carbon_toolbarHeight" android:layout_weight="1.0" android:layout_marginStart="@dimen/carbon_windowPadding">
+        <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceTitle" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/carbon_toolbarTitle" android:layout_width="wrap_content" android:layout_height="@dimen/carbon_toolbarHeight" android:text="" android:maxLines="1" />
+    </carbon.widget.FrameLayout>
+    <carbon.widget.ToolStrip android:id="@id/carbon_toolbarMenu" android:paddingLeft="@dimen/carbon_toolbarItemPadding" android:paddingRight="@dimen/carbon_toolbarItemMargin" android:layout_width="wrap_content" android:layout_height="@dimen/carbon_toolbarHeight" android:paddingStart="@dimen/carbon_toolbarItemPadding" android:paddingEnd="@dimen/carbon_toolbarItemMargin" />
+</carbon.widget.LinearLayout>

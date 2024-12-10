@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<splits>
+    <module name="">
+        <language>
+            <entry key="de" split="" />
+            <entry key="es" split="" />
+            <entry key="fi" split="" />
+            <entry key="fr" split="" />
+            <entry key="hu" split="" />
+            <entry key="it" split="" />
+            <entry key="lv" split="" />
+            <entry key="nl" split="" />
+            <entry key="no" split="" />
+            <entry key="pt" split="" />
+            <entry key="ro" split="" />
+            <entry key="sk" split="" />
+            <entry key="tr" split="" />
+        </language>
+    </module>
+</splits>

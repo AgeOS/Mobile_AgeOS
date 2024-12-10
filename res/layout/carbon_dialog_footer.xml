@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.Divider android:id="@id/carbon_bottomDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <carbon.widget.FlowLayout android:gravity="end" android:orientation="horizontal" android:id="@id/carbon_buttonContainer" android:padding="@dimen/carbon_paddingHalf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</carbon.widget.LinearLayout>

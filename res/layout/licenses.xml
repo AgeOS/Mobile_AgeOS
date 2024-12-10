@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="30.0sp" android:textColor="?colorOnPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/close" android:paddingTop="30.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/license_many" android:lines="1" android:fontFamily="@font/dm_sans_black" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" android:letterSpacing="-0.04" />
+        <com.bosphere.fadingedgelayout.FadingEdgeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:fel_edge="top|bottom" app:fel_size_bottom="30.0dip" app:fel_size_top="30.0dip">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/licenses" android:paddingTop="20.0dip" android:paddingBottom="30.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="false" />
+        </com.bosphere.fadingedgelayout.FadingEdgeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

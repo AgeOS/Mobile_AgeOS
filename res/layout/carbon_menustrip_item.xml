@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:orientation="horizontal" android:background="@color/carbon_defaultMenuSelectionDrawable" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/carbon_menuItemHeight" app:carbon_rippleColor="?carbon_rippleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.ImageView android:layout_gravity="center_vertical" android:id="@id/carbon_icon" android:duplicateParentState="true" android:layout_marginLeft="@dimen/carbon_margin" android:layout_marginStart="@dimen/carbon_margin" app:carbon_tint="@null" style="@style/carbon_ImageView.Icon" />
+    <carbon.widget.Label android:textAppearance="?carbon_textAppearanceBody1" android:textColor="@null" android:layout_gravity="center_vertical" android:id="@id/carbon_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/carbon_margin" android:layout_marginRight="@dimen/carbon_margin" />
+</carbon.widget.LinearLayout>

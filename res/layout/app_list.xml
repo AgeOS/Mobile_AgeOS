@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bosphere.fadingedgelayout.FadingEdgeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:fel_edge="top|bottom" app:fel_size_bottom="30.0dip" app:fel_size_top="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="35.0sp" android:textColor="?colorOnPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/apps_title" android:layout_width="fill_parent" android:layout_height="200.0dip" android:text="@string/apps" android:lines="1" android:fontFamily="@font/dm_sans_black" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" android:letterSpacing="-0.04" app:layout_constraintTop_toTopOf="parent" />
+    <com.stario.launcher.ui.CustomFastScroller android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" app:handleWidth="30.0dip">
+        <com.stario.launcher.ui.CustomRecyclerView android:id="@id/drawer" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" android:nestedScrollingEnabled="true" />
+    </com.stario.launcher.ui.CustomFastScroller>
+</com.bosphere.fadingedgelayout.FadingEdgeLayout>

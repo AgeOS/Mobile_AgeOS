@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.stario.launcher.ui.swipeactionview.SwipeActionView android:background="@drawable/background_accent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/left" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_delete" android:scaleType="fitCenter" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <ImageView android:layout_gravity="end" android:id="@id/right" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_delete" android:scaleType="fitCenter" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/hostView" android:background="@drawable/background_variant" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.stario.launcher.ui.swipeactionview.SwipeActionView>

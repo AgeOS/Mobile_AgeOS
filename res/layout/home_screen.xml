@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/home" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="30.0sp" android:textColor="@color/text" android:ellipsize="end" android:gravity="center" android:id="@id/welcome" android:paddingBottom="2.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:shadowColor="@color/shadow" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="5.0" android:fontFamily="@font/dm_sans_black" android:letterSpacing="-0.04" />
+            <LinearLayout android:gravity="center_horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <TextView android:textSize="18.0sp" android:gravity="center" android:paddingTop="1.0sp" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="a" android:fontFamily="@font/dm_sans_regular" android:paddingStart="4.0sp" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/shadow" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="5.0" android:fontFamily="@font/dm_sans_medium" />
+                <carbon.widget.LinearLayout android:background="?colorAccent" android:padding="5.0sp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:layout_marginStart="7.0sp" app:carbon_cornerRadius="500.0dip">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/text" android:gravity="center" android:id="@id/weather" android:paddingTop="1.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/dm_sans_regular" android:paddingStart="4.0sp" />
+                    <ImageView android:id="@id/weather_icon" android:paddingTop="2.0sp" android:paddingBottom="2.0sp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </carbon.widget.LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clock" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/battery" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,1:1" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/media" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="W,1:2" app:layout_constraintTop_toTopOf="parent">
+                <View android:id="@id/button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginEnd="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <com.stario.launcher.ui.CustomRecyclerView android:id="@id/shortcuts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" android:nestedScrollingEnabled="true" android:elevation="1.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

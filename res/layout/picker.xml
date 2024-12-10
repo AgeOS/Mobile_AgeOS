@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <carbon.widget.ConstraintLayout android:background="?colorOnPrimary" android:layout_width="40.0dip" android:layout_height="4.0dip" android:layout_marginTop="20.0dip" android:alpha="0.5" app:carbon_cornerRadius="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.0sp" android:textColor="?colorOnPrimary" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/supported_engines" android:fontFamily="@font/dm_sans_medium_italic" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/google" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginTop="2.5sp" android:src="@drawable/ic_google_select" />
+            <TextView android:textSize="20.0sp" android:textColor="?colorOnPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Google" android:fontFamily="@font/dm_sans_bold" android:layout_marginStart="10.0dip" android:letterSpacing="-0.04" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/duck" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginTop="2.5sp" android:src="@drawable/ic_duck_select" />
+            <TextView android:textSize="20.0sp" android:textColor="?colorOnPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DuckDuckGo" android:fontFamily="@font/dm_sans_bold" android:layout_marginStart="10.0dip" android:letterSpacing="-0.04" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/brave" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginTop="2.5sp" android:src="@drawable/ic_brave_select" />
+            <TextView android:textSize="20.0sp" android:textColor="?colorOnPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brave" android:fontFamily="@font/dm_sans_bold" android:layout_marginStart="10.0dip" android:letterSpacing="-0.04" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/neeva" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginTop="2.5sp" android:src="@drawable/ic_yandex_select" />
+            <TextView android:textSize="20.0sp" android:textColor="?colorOnPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yandex" android:fontFamily="@font/dm_sans_bold" android:layout_marginStart="10.0dip" android:letterSpacing="-0.04" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bing" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginTop="2.5sp" android:src="@drawable/ic_bing_select" />
+            <TextView android:textSize="20.0sp" android:textColor="?colorOnPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bing" android:fontFamily="@font/dm_sans_bold" android:layout_marginStart="10.0dip" android:letterSpacing="-0.04" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/yahoo" android:paddingTop="10.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <ImageView android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginTop="2.5sp" android:src="@drawable/ic_yahoo_select" />
+            <TextView android:textSize="20.0sp" android:textColor="?colorOnPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yahoo" android:fontFamily="@font/dm_sans_bold" android:layout_marginStart="10.0dip" android:letterSpacing="-0.04" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

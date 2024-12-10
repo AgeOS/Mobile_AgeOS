@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceTitle" android:gravity="center_vertical" android:id="@id/carbon_windowTitle" android:padding="0.0dip" android:paddingTop="@dimen/carbon_paddingHalf" android:paddingBottom="@dimen/carbon_paddingHalf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/carbon_dialogPadding" android:layout_marginRight="@dimen/carbon_dialogPadding" android:minHeight="@dimen/carbon_dialogToolbarMinimumHeight" />
+    <carbon.widget.Divider android:id="@id/carbon_topDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</carbon.widget.LinearLayout>

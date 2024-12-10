@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mavenEcjBootstrapAgent">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/unknown/lombok/launch/mavenEcjBootstrapAgent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

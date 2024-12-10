@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <carbon.widget.FrameLayout android:id="@id/carbon_chipContent" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_margin="@dimen/carbon_chipCloseMargin" app:carbon_cornerRadius="@dimen/carbon_iconSizeHalf" />
+        <carbon.widget.ImageView android:id="@id/carbon_chipCheck" android:visibility="gone" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_margin="@dimen/carbon_chipCloseMargin" app:carbon_cornerRadius="@dimen/carbon_iconSizeHalf" app:carbon_src="@drawable/carbon_check" app:carbon_tint="@color/carbon_defaultIconColor" />
+    </carbon.widget.FrameLayout>
+    <carbon.widget.TextView android:gravity="center_vertical" android:id="@id/carbon_chipText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:carbon_layout_marginHorizontal="@dimen/carbon_chipPadding" />
+    <carbon.widget.ImageView android:layout_gravity="center_vertical" android:id="@id/carbon_chipClose" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_margin="@dimen/carbon_chipCloseMargin" android:scaleType="center" app:carbon_cornerRadius="@dimen/carbon_iconSizeHalf" app:carbon_rippleColor="?carbon_rippleColor" app:carbon_rippleStyle="borderless" app:carbon_src="@drawable/carbon_remove" app:carbon_tint="@color/carbon_defaultIconColor" />
+</merge>

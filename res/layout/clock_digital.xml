@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.stario.launcher.ui.ClockViewDigital android:layout_width="fill_parent" android:layout_height="fill_parent" android:rotation="180.0" android:forceDarkAllowed="false" app:centerCircleColor="?colorAccent" app:centerCircleRadius="3.0dip" app:clockFaceColor="?colorPrimaryContainer" app:hourHandColor="?colorOnPrimary" app:hourHandWidth="7.0dip" app:minuteHandColor="?colorOnPrimaryContainer" app:minuteHandWidth="3.5dip" app:numberTextColor="?colorOnPrimary" app:numberTextSize="40.0dip" app:sweepHandColor="?colorAccent" app:sweepHandWidth="3.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

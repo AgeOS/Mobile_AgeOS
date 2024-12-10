@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.FrameLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/carbon_bottomNavigationViewHeight" app:carbon_rippleColor="?carbon_rippleColor" app:carbon_rippleStyle="borderless"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.RelativeLayout android:layout_gravity="center" android:paddingLeft="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <carbon.widget.Label android:textAppearance="@style/carbon_TextAppearance.Body1" android:textSize="12.0sp" android:id="@id/carbon_bottomText" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/carbon_bottomTextMarker" android:layout_centerHorizontal="true" />
+        <carbon.widget.ImageView android:id="@id/carbon_bottomIcon" android:duplicateParentState="true" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" android:layout_centerHorizontal="true" />
+        <carbon.widget.TextMarker android:id="@id/carbon_bottomTextMarker" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_below="@id/carbon_bottomIcon" app:carbon_text="I" app:carbon_textView="@id/carbon_bottomText" />
+    </carbon.widget.RelativeLayout>
+</carbon.widget.FrameLayout>
